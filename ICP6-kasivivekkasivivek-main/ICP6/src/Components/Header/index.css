@@ -1,0 +1,39 @@
+
+/* header main container */
+.header_main_container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    width:100%;
+    padding:10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+/* header Nav items container*/
+
+.header_unordered_list{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:center;
+    width:50%;
+    list-style:none;
+    text-decoration: none;
+    
+}
+
+/* nav list each item */
+.header_list_item,.header_link{
+    cursor: pointer;
+    text-decoration: none;
+    color:rgb(240, 15, 15);
+    font-size:25px;
+    font-weight:700;
+}
+
+/* logo image */
+.logo_image{
+    width:100px;
+    height:100px;
+}
